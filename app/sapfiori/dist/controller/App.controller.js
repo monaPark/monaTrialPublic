@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(i){"use strict";return i.extend("sap.fiori.sapfiori.controller.App",{onInit(){}})});

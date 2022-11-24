@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(t){"use strict";return t.extend("sap.fiori.sapfiori.controller.Products",{handleListItemPress:function(t){var e=sap.ui.core.UIComponent.getRouterFor(this);var o=t.getSource().getBindingContext().getProperty("ProductID");e.navTo("RouteDetail",{productId:o})}})});
